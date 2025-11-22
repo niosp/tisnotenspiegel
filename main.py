@@ -32,13 +32,13 @@ def init_db():
 
 def sync_config_with_db():
     if not os.path.exists(CONFIG_FILE):
-        default_exams = ["Default Exam"]
-        with open(CONFIG_FILE, 'w') as f:
-            json.dump(default_exams, f)
-        st.warning(f"Created {CONFIG_FILE} with default values. Please edit this file to add your exams.")
+        default_exams = ["Mathematik I", "Physik Prüfung"]
+        with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
+            json.dump(default_exams, f, ensure_ascii=False, indent=4)
+        st.warning(f"Created {CONFIG_FILE} with default values.")
         return default_exams
 
-    with open(CONFIG_FILE, 'r') as f:
+    with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
         exam_names = json.load(f)
 
     with sqlite3.connect(DB_NAME) as conn:
