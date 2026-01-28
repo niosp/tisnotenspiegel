@@ -2,32 +2,50 @@
     {
         "name": "Datenbanksysteme - Gesamt",
         "min": 1.0,
-        "max": 5.0,
+        "max": 6.0,
         "step": 0.1
     },
     {
         "name": "Datenbanksysteme - Klausur",
         "min": 0.0,
         "max": 40.0,
-        "step": 1.0
+        "step": 0.5
     },
     {
         "name": "Datenbanksysteme - Projekt",
         "min": 0.0,
         "max": 60.0,
-        "step": 1.0
+        "step": 0.5
     },
     {
         "name": "Betriebssysteme",
         "min": 1.0,
         "max": 6.0,
+        "step": 0.1
+    },
+    {
+        "name": "Mathe 3 - Statistik n",
+        "min": 1.0,
+        "max": 6.0,
+        "step": 0.1
+    },
+    {
+        "name": "Mathe 3 - Angewandte Mathematik",
+        "min": 1.0,
+        "max": 6.0,
+        "step": 0.1
+    },
+    {
+        "name": "Rechnerarchitekturen",
+        "min": 0.0,
+        "max": 50.0,
         "step": 0.5
     },
     {
-        "name": "Mathe 3 - Statistik",
+        "name": "Theoretische Informatik 3",
         "min": 1.0,
         "max": 6.0,
-        "step": 0.5
+        "step": 0.1
     },
     {
         "name": "IT Recht 2",
